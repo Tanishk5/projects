@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanishk Kaushik | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tanishk Kaushik</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container fade-in">
+        <h2>About Me</h2>
+        <p>I'm Tanishk Kaushik, a 19-year-old student currently pursuing my Bachelor's in Computer Applications at Bennett University. I'm in my 2nd year, exploring the world of programming and development. I’m passionate about learning new technologies and have recently started delving into Java and web development. My hobbies include going to the gym, gaming, and exploring new places.</p>
+    </section>
+
+    <section id="projects" class="container fade-in">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>First Web Development Project</h3>
+                <p>This is my first web development project, and it's a class project where I've applied my learnings in HTML, CSS, and JavaScript to create a functional and interactive portfolio website.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container fade-in">
+        <h2>Skills</h2>
+        <div class="skills-graph">
+            <div class="skill">
+                <h3>HTML & CSS</h3>
+                <div class="bar"><span class="html-bar"></span></div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="bar"><span class="js-bar"></span></div>
+            </div>
+            <div class="skill">
+                <h3>Java</h3>
+                <div class="bar"><span class="java-bar"></span></div>
+            </div>
+            <div class="skill">
+                <h3>Web Development</h3>
+                <div class="bar"><span class="webdev-bar"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container fade-in">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p>Or reach me via email at <a href="mailto:tanishkk368@gmail.com">tanishkk368@gmail.com</a> or contact me at +91-7976006313.</p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tanishk Kaushik. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
